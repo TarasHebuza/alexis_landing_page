@@ -1,0 +1,94 @@
+@media (max-width: 720px) {
+    header {
+        height: 59px;
+    }
+
+    .nav_button {
+        display: block;
+    }
+
+    .nav_button:hover .vertical_navigation {
+        display: block;
+    }
+
+    .horizontal_navigation {
+        display: none;
+    }
+
+    /*Вертикальна навігація*/
+    .vertical_navigation {
+        display: none;
+    }
+
+    .vertical_navigation ul {
+        list-style-type: none;
+        width: 120px;
+        position: absolute;
+        right: 0;
+        top: 16px;
+    }
+
+    .vertical_navigation a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        display: block;
+        background-color: #d6c9c9;
+        width: 120px;
+    }
+
+    .vertical_navigation a:hover {
+        color: #1535ed;
+        background-color: #9e9a9a;
+
+    }
+
+    /*Початок блоку About us*/
+    #about_us img {
+        display: none;
+    }
+
+    #about_us {
+        padding: 0;
+        width: 100%;
+    }
+
+    .wrapper_for_about_us {
+        width: 100%;
+    }
+
+    .text_about_us {
+        position: static;
+        height: auto;
+        width: 100%;
+    }
+
+    /*Кінець блоку About us*/
+
+    /*Початок блоку Our Focus*/
+    .wrapper_for_our_focus {
+        width: 350px;
+    }
+
+    .wrapper_for_our_focus div {
+        width: 168px;
+    }
+
+    /*Кінець блоку Our Focus*/
+
+    /*Блок Our Blog*/
+    .first_section,
+    .second_section {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .second_section {
+    	position: static;
+    }
+    .first_section {
+    	margin-bottom: 15px;
+    }
+    /*Кінець блоку Our Blog*/
+}
